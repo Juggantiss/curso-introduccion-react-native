@@ -1,10 +1,11 @@
-import { View, Text, Button } from "react-native";
+import { Text, Button } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function SettingsScreen({ navigation }) {
   const goToHome = () => navigation.navigate("Home");
 
   return (
-    <View>
+    <SafeAreaView>
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
@@ -15,6 +16,6 @@ export default function SettingsScreen({ navigation }) {
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
       <Button onPress={goToHome} title="Ir a Ajustes" />
-    </View>
+    </SafeAreaView>
   );
 }
