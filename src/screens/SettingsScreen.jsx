@@ -15,7 +15,7 @@ export default function SettingsScreen({ navigation }) {
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
       <Text>Estamos en SettingsScreen</Text>
-      <Button onPress={goToHome} title="Ir a Ajustes" />
+      <Button onPress={goToHome} title="Ir a Home" />
     </SafeAreaView>
   );
 }
